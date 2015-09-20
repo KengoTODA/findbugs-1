@@ -1,0 +1,9 @@
+language: java
+jdk:
+  - oraclejdk7
+
+script: "ant"
+notifications:
+  email:
+    recipients:
+      - skypencil+travis@gmail.com
