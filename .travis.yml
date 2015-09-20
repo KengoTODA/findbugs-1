@@ -1,7 +1,9 @@
 language: java
+sudo: false
 jdk:
   - oraclejdk7
-script: "ant"
+install: ant build
+script: ant test
 notifications:
   email:
     recipients:
